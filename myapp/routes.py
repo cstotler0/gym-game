@@ -7,7 +7,7 @@ from myapp.forms import LoginForm
 
 @app.route('/home')
 def home():
-    user = {'username': 'Miguel'}
+    user = {'username': 'Colton'}
     return render_template('home.html', title='Home', user=user)
 
 @app.route('/login', methods=['GET', 'POST'])
